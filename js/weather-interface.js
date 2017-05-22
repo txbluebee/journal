@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('#location').val("");
     $('.showWeather').text("The city you have chosen is " + city + ".");
     $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey, function(response) {
-      $('.showWeather').text("The humidity in " + city + " is " + (response['weather'][0]['description']) + "%");
+      $('.showWeather').text("The Weather in " + city + " is " + response['weather'][0]['description']);
     });
   });
 });
