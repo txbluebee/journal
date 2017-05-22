@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <meta charset="utf-8">
+    <title>Journal</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Journal</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="journal">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input id="title" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="body">Body</label>
+              <textarea id="body" class="form-control" rows="5" cols="20"></textarea>
+            </div>
+            <button class='btn btn-success' type="submit" >Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="output">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
