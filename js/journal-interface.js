@@ -15,6 +15,5 @@ $(document).ready(function(){
       "<p> Vowel Count: " + newJournal.getVowelCount(body) + "</p>" +
       "<p> Consonant Count: " + newJournal.getConsonantCount(body) + "</p>"
     );
-
   });
 });
